@@ -31,6 +31,8 @@ async function checkWhether(city) {
         whetherIcon.src = "images/sun.png"
     }
 
+    document.querySelector(".wheather").style.display = "flex";
+
 }
 
 searchBtn.addEventListener("click", () => {

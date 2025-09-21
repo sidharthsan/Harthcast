@@ -129,6 +129,10 @@ nav h1{
     color: white;
 }
 
+.wheather{
+    display: none;
+}
+
 @media (max-width: 480px) {
     .container{
         max-width: 350px;
