@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Quicksand:wght@300..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Quicksand", sans-serif;
+}
+
+body{
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 476px;
+    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    margin: 100px 0;
+    border-radius: 15px;
+    padding: 35px;
+}
+
+.search{
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container .search .searchbtn img{
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.container .search input{
+    outline: 0;
+    border: 0;
+    padding: 15px;
+    border-radius: 30px;
+    width: 85%;
+}
+
+.wheather {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.wheather .images img{
+    width: 160px;
+    margin-top: 35px;
+}
+
+.wheather .heading h1 {
+    color: white;
+    font-size: 100px;
+    font-weight: 500;
+    margin-top: 20px;
+    font-family: "Quicksand", sans-serif;
+}
+.wheather .heading h2{
+    font-size: 50px;
+    font-weight: 400;
+    color: white;
+    font-family: "Quicksand", sans-serif;
+}
+
+.wheather .heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+}
+
+.wheather .details{
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    width: 100%;
+    justify-content: space-between;
+    color: white;
+}
+
+.wheather .details .humidity img {
+    width: 40px;
+    height: 40px;
+}
+
+.wheather .details .wind img {
+    width: 40px;
+    height: 40px;
+}
+
+.wheather .details .humidity h2{
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.wheather .details .wind h2{
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.wheather .details .humidity span{
+    font-size: 25px;
+    font-weight: 500;
+
+}.wheather .details .wind span{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+nav {
+    display: flex;
+}
+nav h1{
+    color: white;
+}
+
+@media (max-width: 480px) {
+    .container{
+        max-width: 350px;
+    }
+
+    .wheather .details .humidity span{
+        font-size: 19px;
+    }
+    
+    .wheather .details .wind span{
+        font-size: 19px;
+    }
+
+}
