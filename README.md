@@ -28,16 +28,4 @@ JavaScript (ES6, Fetch API)
 
 OpenWeatherMap API
 
-🔹 How to Use
-
-Clone the repo:
-
-git clone https://github.com/YOUR_USERNAME/HarthCast.git
-
-
-Open index.html in your browser.
-
-Enter any city name in the search box and click Search or press Enter.
-
-Weather information will update dynamically.
 
